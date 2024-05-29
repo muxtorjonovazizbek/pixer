@@ -233,3 +233,178 @@ main .work .work__cards .work__card .work__card__info .work__card__p {
   font-size: 16px;
   line-height: 24px;
 }
+main .work .work__btn {
+  width: 167px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  gap: 10px;
+  background-color: #00bafc;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+main .order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #00bafc;
+  padding-top: 80px;
+  margin-top: 100px;
+}
+main .order .order__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .order .order__info .order__info__h {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  color: #fff;
+}
+main .order .order__info .order__info__p {
+  width: 719px;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+main .order .order__form {
+  width: 348px;
+  height: 304px;
+  border-radius: 5px;
+  gap: 16px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 100px;
+  flex-direction: column;
+}
+main .order .order__form .order__form__inner {
+  width: 300px;
+  height: 56px;
+  border-radius: 5px;
+  padding: 16px;
+  background-color: #f3f3f3;
+  border: none;
+  outline-color: #00bafc;
+}
+main .order .order__form .order__form__inner::-moz-placeholder {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .order .order__form .order__form__inner::placeholder {
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .order .order__form .order__form__inner .order__form__inner__opt {
+  color: black;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 24px;
+  padding: 10px;
+}
+main .order .order__form .order__form__btn {
+  width: 167px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  gap: 10px;
+  background-color: #00bafc;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+}
+
+footer {
+  background-color: black;
+  height: 50vh;
+}
+footer .footer__box {
+  display: flex;
+  color: #fff;
+  padding-top: 50px;
+}
+footer .footer__box .footer__box__left {
+  width: 320px;
+  height: 162px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 100px;
+}
+footer .footer__box .footer__box__left .footer__box__left__h {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+footer .footer__box .footer__box__left .footer__box__left__p {
+  width: 320px;
+  height: 120px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+footer .footer__box .footer__box__middle {
+  width: 200px;
+  height: 226px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 250px;
+}
+footer .footer__box .footer__box__middle h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+footer .footer__box .footer__box__middle ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+footer .footer__box .footer__box__middle ul a {
+  color: white;
+}
+footer .footer__box .footer__box__middle ul a:hover {
+  text-decoration: underline;
+}
+footer .footer__box .footer__box__right {
+  width: 142px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  gap: 16px;
+}
+footer .footer__box .footer__box__right h4 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+}
+footer .footer__box .footer__box__right .footer__box__right__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .footer__box .footer__box__right .footer__box__right__inner .footer__box__right__cover {
+  display: flex;
+  gap: 10px;
+}
