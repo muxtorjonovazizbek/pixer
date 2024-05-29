@@ -1,3 +1,5 @@
+@use "./services";
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +13,7 @@
   font-family: sans;
   src: url(../Open_Sans/static/OpenSans-Regular.ttf);
 }
-font-face {
+@font-face {
   font-family: sans-medi;
   src: url(../Open_Sans/static/OpenSans-Medium.ttf);
 }
