@@ -90,6 +90,7 @@ main .hero .hero__left .hero__left__btn {
   font-size: 16px;
   line-height: 24px;
   border: none;
+  cursor: pointer;
 }
 main .hero .hero__right .hero__right__video {
   border-radius: 5px;
@@ -175,6 +176,7 @@ main .services .services__btn__link .services__btn__link__btn {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  cursor: pointer;
 }
 main .services .services__btn__link .services__btn__link__link {
   text-decoration: underline;
@@ -246,6 +248,7 @@ main .work .work__btn {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  cursor: pointer;
 }
 main .order {
   display: flex;
@@ -331,6 +334,7 @@ main .order .order__form .order__form__btn {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
+  cursor: pointer;
 }
 
 footer {
@@ -407,4 +411,5 @@ footer .footer__box .footer__box__right .footer__box__right__inner {
 footer .footer__box .footer__box__right .footer__box__right__inner .footer__box__right__cover {
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
